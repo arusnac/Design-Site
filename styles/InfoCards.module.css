@@ -1,0 +1,62 @@
+.infoCard {
+  width: 360px;
+}
+
+.text {
+}
+
+.text h5 {
+  font-family: Acumin Pro, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 72px;
+  color: white;
+}
+
+.text p {
+  font-family: Acumin Pro, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: white;
+}
+
+.cardTitle {
+  font-family: Acumin Pro Wide, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  /* or 180% */
+
+  text-decoration-line: underline;
+  text-transform: uppercase;
+
+  /* Indian Red */
+
+  color: #e05f62;
+}
+
+.cardDescription {
+  font-family: "Acumin Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 164% */
+
+  /* White */
+
+  color: #ffffff;
+}
+@media (max-width: 600px) {
+  .infoCard {
+    width: 320px;
+  }
+
+  .text h5 {
+    font-size: 10px;
+  }
+}
